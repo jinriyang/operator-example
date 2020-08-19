@@ -1,0 +1,11 @@
+domain: qihoo.net
+layout: go.kubebuilder.io/v2
+projectName: redis-operator
+repo: github.com/jinriyang/redis-operator
+resources:
+- group: redis
+  kind: RedisCluster
+  version: v1alpha1
+version: 3-alpha
+plugins:
+  go.sdk.operatorframework.io/v2-alpha: {}
